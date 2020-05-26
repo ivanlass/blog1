@@ -12,6 +12,7 @@ border-radius: 5px;
 box-shadow: 0px 10px 30px -10px #f12711;
 color: white;
 margin: 300px auto;
+font-size:20px;
 
 @media (max-width: 768px) {
     margin: 100px auto;

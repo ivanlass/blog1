@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a83713e1.chunk.css",
+    "main.js": "/static/js/main.db6e3d91.chunk.js",
+    "main.js.map": "/static/js/main.db6e3d91.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.23ae2981.js",
+    "runtime-main.js.map": "/static/js/runtime-main.23ae2981.js.map",
+    "static/js/2.e5400411.chunk.js": "/static/js/2.e5400411.chunk.js",
+    "static/js/2.e5400411.chunk.js.map": "/static/js/2.e5400411.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.760da72f90ac542dff65f23caefa76c4.js": "/precache-manifest.760da72f90ac542dff65f23caefa76c4.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.a83713e1.chunk.css.map": "/static/css/main.a83713e1.chunk.css.map",
+    "static/js/2.e5400411.chunk.js.LICENSE.txt": "/static/js/2.e5400411.chunk.js.LICENSE.txt",
+    "static/media/agnes.png": "/static/media/agnes.90529162.png",
+    "static/media/amanda.png": "/static/media/amanda.77ecf42a.png",
+    "static/media/couple.jpg": "/static/media/couple.706c0322.jpg",
+    "static/media/dating.jpg": "/static/media/dating.3598dae4.jpg",
+    "static/media/emma.png": "/static/media/emma.5a900311.png",
+    "static/media/group.jpg": "/static/media/group.7eb392ca.jpg",
+    "static/media/klara.png": "/static/media/klara.cbbd84c8.png",
+    "static/media/sara.png": "/static/media/sara.d2563e61.png",
+    "static/media/sonja.png": "/static/media/sonja.269183fe.png",
+    "static/media/vanessa.png": "/static/media/vanessa.ff8fe18e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.23ae2981.js",
+    "static/js/2.e5400411.chunk.js",
+    "static/css/main.a83713e1.chunk.css",
+    "static/js/main.db6e3d91.chunk.js"
+  ]
+}

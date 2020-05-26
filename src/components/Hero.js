@@ -2,6 +2,7 @@ import React from 'react';
 import couple from '../photos/couple.jpg'
 import styled from 'styled-components'
 import { isBrowser } from "react-device-detect";
+import arrow from '../photos/arrow.png'
 
 const Img = styled.div`
 width:100vw;
@@ -10,6 +11,29 @@ background: url(${couple});
 background-position:center;
 background-repeat:no-repeat;
 background-size:cover;
+`
+
+const Arrow = styled.img`
+width:100px;
+height:100px;
+position:absolute;
+bottom:29%;
+left:15%;
+z-index:10;
+animation-name: fadeIn;
+animation-iteration-count: infinite;
+animation-duration: 1s;
+
+@media (max-width: 768px) {
+  bottom:20%;
+  }
+
+@keyframes fadeIn {
+  0% {transform:scale(1)}
+  50% {transform:scale(1.2)}
+  100% {transform:scale(1)}
+}
+
 `
 
 const Div = styled.div`
@@ -24,6 +48,7 @@ display: grid;
 box-shadow: 4px 0px 92px -6px rgba(255,255,255,1);
   }
 `
+
 
 const Button = styled.button`
 border:none;
@@ -44,7 +69,7 @@ top: 50%;
   }
 `
 
-const BigTxt = styled.h4`
+const BigTxt = styled.h3`
 display:block;
 color: #616161;
 background: linear-gradient(to right, #f12711, #f5af19);
@@ -54,13 +79,13 @@ padding:90px;
 line-height:3;
 margin-top:40px;
 @media (max-width: 1000px) {
-    padding:15px;
+padding:15px;
 line-height:2;
 margin-top:20px;
-font-size: 22px;
-  }
-  @media (max-width: 768px) {
-    padding:5px;
+font-size: 32px;
+}
+@media (max-width: 768px) {
+padding:5px;
 line-height:1;
 margin-top:20px;
 font-size: 16px;
@@ -72,6 +97,7 @@ function Hero() {
   return (
     <Img >
       <Div>
+        <Arrow src={arrow}></Arrow>
         <BigTxt>Till skillnad från många dejtingsajter tror vi att det är onödigt att ha miljoner medlemmar för att träffa rätt person. I själva verket är vår strategi att samla individer som är bästa affinitet och involverade i deras forskning. Möjligheterna är så stora möten tiofaldiga! Tack för att du läser !</BigTxt>
       </Div>
       <a href={isBrowser ? "https://trackoptimise.com/?a=10438&c=65781&s1=006" : "https://trackoptimise.com/?a=10438&c=65750&s1=006"}>
